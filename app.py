@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, session, flash, redirect, url_for
 import os
+from dotenv import load_dotenv
 from db import get_mysql_connection, init_schema
 import datetime
 import random
@@ -9,6 +10,7 @@ import pathlib
 def create_app() -> Flask:
 	app = Flask(__name__)
 	# WARNING: replace this in production
+	load_dotenv()  # load variables from a .env file if present
 	app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-secret-key")
 
 	@app.route("/")
