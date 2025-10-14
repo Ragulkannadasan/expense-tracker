@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Report · Expense Tracker{% endblock %}
+{% block content %}
+<div class="card">
+	<h1>Report</h1>
+	<ul>
+		{% for row in data %}
+		<li>{{ row }}</li>
+		{% else %}
+		<li>No data</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
+
+

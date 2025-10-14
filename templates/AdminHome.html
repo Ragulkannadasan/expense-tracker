@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Admin Home · Expense Tracker{% endblock %}
+{% block content %}
+<div class="card">
+	<h1>Admin Home</h1>
+	<h2>Registered Users</h2>
+	<ul>
+		{% for row in data %}
+		<li>{{ row }}</li>
+		{% else %}
+		<li>No users yet</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
+
+

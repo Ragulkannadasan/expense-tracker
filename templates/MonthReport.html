@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Monthly Report · Expense Tracker{% endblock %}
+{% block content %}
+<div class="card">
+	<h1>Monthly Report</h1>
+	<form method="post">
+		<label>Month
+			<input type="number" name="mon" min="1" max="12" />
+		</label>
+		<label>Year
+			<input type="number" name="yea" min="2000" max="2100" />
+		</label>
+		<button type="submit">Generate</button>
+	</form>
+	{% if dataimg %}
+		<p><img src="/{{ dataimg }}" alt="chart" style="max-width:100%;height:auto" /></p>
+	{% endif %}
+	<h2>Entries</h2>
+	<ul>
+		{% for r in data %}
+		<li>{{ r[2] }} — {{ r[3] }} on {{ r[2] }}</li>
+		{% else %}
+		<li>No data</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
+
+

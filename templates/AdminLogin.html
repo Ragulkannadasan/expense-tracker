@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Admin Login · Expense Tracker{% endblock %}
+{% block content %}
+<div class="card">
+	<h1>Admin Login</h1>
+	<form method="post" action="/adminlogin">
+		<label>Username <input name="uname" /></label>
+		<label>Password <input type="password" name="password" /></label>
+		<button type="submit">Login</button>
+	</form>
+</div>
+{% endblock %}
+
+

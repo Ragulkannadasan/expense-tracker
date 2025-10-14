@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Set Limit · Expense Tracker{% endblock %}
+{% block content %}
+<div class="card">
+	<h1>Monthly Limit</h1>
+	<form method="post">
+		<label>Month (1-12)
+			<input type="number" min="1" max="12" name="mon" />
+		</label>
+		<label>Year
+			<input type="number" min="2000" max="2100" name="yea" />
+		</label>
+		<label>Amount
+			<input type="number" step="0.01" name="amount" />
+		</label>
+		<button type="submit">Save</button>
+	</form>
+
+	<h2>Your Limits</h2>
+	<ul>
+		{% for row in data %}
+		<li>#{{ row[0] }} — {{ row[3] }}/{{ row[2] }} : {{ row[4] }}</li>
+		{% else %}
+		<li>No limits</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
+
+
