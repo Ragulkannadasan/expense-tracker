@@ -1,0 +1,1138 @@
+ 
+1 
+ ABSTRACT  
+ 
+In the fast -paced, expensive world of today, people are ready to make money.  But when 
+they broke up at the end of the month, they had unknowingly spent money on pointless and 
+unnecessary things. Develop a programme to monitor our income. Anyo ne may use an 
+expenditure tracker as a tool to keep tabs on their spending and find ways to save costs. Users 
+may keep track of and make changes to their daily costs using the expense tracker. They are 
+constantly mindful of their spending. Before their exp enses are updated and displayed to them, 
+users of personal financial applications must submit their charges. Furthermore, consumers 
+may obtain a graphic breakdown of their spending. The user will receive an email notification 
+if the monthly usage cap is ex ceeded. This option is available. Along with accounting and 
+budgeting assistance, it will provide you with useful money management tips.  
+  
+
+ 
+2 
+ 1. INTRODUCTION  
+ 
+1.1 OVERVIEW OF THE PROJECT  
+ 
+Every economic pawn and player needs to learn personal money management  skills 
+because of the struggling economy and the abundance of spending temptations. However, 
+because financial information can take many different forms, managing funds can occasionally 
+be difficult (bills, statements, invoices, pay stubs, receipts, to na me a few). As a result, it is 
+frequently impossible for consumers to even locate any of these financial records while looking 
+for them, let alone maintain and monitor their own cash flow. People misjudge how much 
+money they spend on unforeseen and purchase s from a mental budget, thus the movement of 
+money is only significant when it is coming in and is frequently forgotten when it is going out. 
+The Daily Expense Tracker System is designed to monitor a user's earnings and outgoing costs 
+each day. In this app roach, the money is distributed based on daily expenses. The system will 
+subtract any daily expense excess from your earnings and provide you a fresh daily expense 
+allotment if you do. The system will save it if the cost for that day is less. The monthly r eport 
+from the daily spending tracking system will display the income -expenditure curve. A personal 
+expense tracker is a tool or application that helps individuals keep track of their expenses. With 
+an expense tracker, you can record and categorize your dai ly, weekly, or monthly expenses, 
+such as rent, food, transportation, entertainment, and other miscellaneous expenses.Using an 
+expense tracker allows you to monitor your spending habits and identify areas where you might 
+be overspending. It also enables you  to set budgets and savings goals, and track your progress 
+towards achieving them. By having a clear overview of your finances, you can make more 
+informed decisions about your spending and prioritize your expenses accordingly.There are 
+various types of exp ense trackers available, ranging from basic spreadsheets to advanced 
+mobile applications. Some expense trackers allow you to link your bank accounts and credit 
+cards, automatically categorize your expenses, and generate reports and graphs to help you 
+visua lize your spending patterns. Others may also offer features such as bill reminders, receipt 
+scanning, and financial advice.Overall, a personal expense tracker is a powerful tool for 
+managing your finances, providing you with greater control and awareness o ver your spending 
+and helping you achieve your financial goals.  
+ 
+
+ 
+3 
+ 1.2 PROBLEM DESCRIPTION  
+In today's fast -paced society, many individuals struggle with financial management, 
+often finding themselves in precarious financial situations despite their efforts t o earn money. 
+The primary issue stems from a lack of awareness and control over personal spending habits, 
+leading to excessive and unnecessary expenditures. Without a reliable system in place to 
+monitor their income and expenses, individuals frequently ove rspend, unknowingly allocating 
+funds towards frivolous purchases. This lack of oversight not only impedes financial stability 
+but also inhibits progress towards long -term financial goals such as savings, investments, and 
+debt repayment. Moreover, the absen ce of real -time monitoring mechanisms exacerbates the 
+problem, as users often fail to recognize their financial pitfalls until it is too late. Without timely 
+intervention, individuals may find themselves facing mounting debts, strained budgets, and 
+overall  financial distress. Furthermore, the absence of personalized budgeting and money 
+management guidance exacerbates the problem, leaving users without the necessary tools and 
+knowledge to make informed financial decisions. To address these challenges, there is a 
+pressing need for a comprehensive financial monitoring tool that empowers users to track their 
+income and expenses, gain insights into their spending patterns, set realistic budgets, receive 
+timely notifications for overspending, and access valuable m oney management tips and advice.  
+  
+
+ 
+4 
+ 2. SYSTE M ANALYSIS  
+2.1 EXISTING SYSTEM  
+In existing system, need to maintain the Excel sheets, CSV etc. files for the user daily and 
+monthly expenses There isn't an Accumulate to quickly keep track of daily costs yet. One needs 
+to keep a track for this, either in a diary or on a computer. Additionally, since all computations 
+must be done manually, there is a chance for errors and consequent losses. There may be a 
+variety of disadvantages to using a manual accounting system.  The accounting procedure in 
+any business can be difficult. You might not need to understand the accounting process as 
+thoroughly as you would with a manual accounting system if you use a computerised 
+accounting system.  
+2.1.1 DISADVANTAGE  
+ Takes more time t o calculate  
+ Possibility of missing the notes in manual process  
+ Impossible to update the Budget details regularly  
+  
+
+ 
+5 
+ 2.2 PROPOSED SYSTEM  
+ This website called Expense Tracker will be available at all times. All of the data and 
+financial information will be s tored in a database layer. The suggested system should allow 
+users to communicate with the system as well as save information.  Users ought to be able to 
+select from a range of categories and enter the payment amount and method. Data analysis 
+should be pos sible with this technology. Give details on the categories where the user spent the 
+most money. Users should be able to save and keep track of their previous costs using the 
+system's user interface. With the goal of assisting users in easily managing all o f their income 
+and expenses and keeping track of all credits and debits of transaction according to different 
+categories, this app Track Money was created. Users can also have a pictorial representation of 
+all of the transactions of different categories an d can download excel reports of transaction. 
+Users of the app can better manage their spending thanks to push notifications that contain 
+personalized suggestions.  
+2.2.1 ADVANTAGE  
+ Overcome the manual process  
+ Helps to Maintain the Budget Information  
+ Helps to  get aware in Financial  
+ Provide graphical pie -chart makes easy to know the Expensive Details  
+ Easy to find and reduce the Unnecessary of spending money  
+  
+
+ 
+6 
+ 3. SYSTEM SPECIFICATION  
+ 
+3.1 HARDWARE REQUIREMENTS  
+ Processor         : Inte l core processor 2.6.0 GHZ  
+ RAM    : 4 GB  
+ Hard disk         : 320 GB  
+ Compact Disk  : 650 Mb  
+ Keyboard         : Standard keyboard  
+ Monitor            :  15 inch color monitor  
+ 
+3.2 SOFTWARE REQUIREMMENTS  
+ Operating system  : Windows OS  
+ Front End           : Python  
+ Back End            : My SQL SERVER  
+ IDLE   : Python 2.7 IDLE  
+ 
+  
+
+ 
+7 
+ 4. SOFTWARE DESCRIPTION  
+4.1 FRONT END  
+Python is an interpreted high -level programming language for general -purpose 
+programming. Created by Guido van Rossum and first released in 1991, Python has a design 
+philosophy th at emphasizes code readability, notably using significant whitespace. It provides 
+constructs that enable clear programming on both small and large scales. In July 2018, Van 
+Rossum stepped down as the leader in the language community. Python features a dyna mic 
+type system and automatic memory management. It supports multiple programming 
+paradigms, including object -oriented, imperative, functional and procedural, and has a large 
+and comprehensive standard library. Python interpreters are available for many op erating 
+systems. CPython, the reference implementation of Python, is open source software and has a 
+community -based development model, as do nearly all of Python's other implementations. 
+Python and CPython are managed by the non -profit Python Software Foun dation. Rather than 
+having all of its functionality built into its core, Python was designed to be highly extensible. 
+This compact modularity has made it particularly popular as a means of adding programmable 
+interfaces to existing applications. Van Rossum 's vision of a small core language with a large 
+standard library and easily extensible interpreter stemmed from his frustrations with ABC, 
+which espoused the opposite approach. While offering choice in coding methodology, the 
+Python philosophy rejects exub erant syntax (such as that of Perl) in favor of a simpler, less -
+cluttered grammar. As Alex Martelli put it: "To describe something as 'clever' is not considered 
+a compliment in the Python culture."Python's philosophy rejects the Perl "there is more than 
+one way to do it" approach to language design in favour of "there should be one —and 
+preferably only one —obvious way to do it".  
+Python's developers strive to avoid premature optimization, and reject patches to non -
+critical parts of CPython that would offer ma rginal increases in speed at the cost of clarity.[ 
+When speed is important, a Python programmer can move time -critical functions to extension 
+modules written in languages such as C, or use PyPy, a just -in-time compiler. CPython is also 
+available, which tra nslates a Python script into C and makes direct C -level API calls into the 
+Python interpreter. An important goal of Python's developers is keeping it fun to use. This is 
+reflected in the language's name a tribute to the British comedy group Monty Python an d in 
+occasionally playful approaches to tutorials and reference materials, such as examples that refer 
+to spam and eggs (from a famous Monty Python sketch) instead of the standard for and bar.  
+
+ 
+8 
+ A common neologism in the Python community is pythonic, which c an have a wide 
+range of meanings related to program style. To say that code is pythonic is to say that it uses 
+Python idioms well, that it is natural or shows fluency in the language, that it conforms with 
+Python's minimalist philosophy and emphasis on rea dability. In contrast, code that is difficult 
+to understand or reads like a rough transcription from another programming language is called 
+unpythonic. Users and admirers of Python, especially those considered knowledgeable or 
+experienced, are often referr ed to as Pythonists, Pythonistas, and Pythoneers. Python is an 
+interpreted, object -oriented, high -level programming language with dynamic semantics. Its 
+high-level built in data structures, combined with dynamic typing and dynamic binding, make 
+it very att ractive for Rapid Application Development, as well as for use as a scripting or glue 
+language to connect existing components together. Python's simple, easy to learn syntax 
+emphasizes readability and therefore reduces the cost of program maintenance. Pytho n 
+supports modules and packages, which encourages program modularity and code reuse. The 
+Python interpreter and the extensive standard library are available in source or binary form 
+without charge for all major platforms, and can be freely distributed. Oft en, programmers fall 
+in love with Python because of the increased productivity it provides. Since there is no 
+compilation step, the edit -test-debug cycle is incredibly fast. Debugging Python programs is 
+easy: a bug or bad input will never cause a segmentat ion fault. Instead, when the interpreter 
+discovers an error, it raises an exception. When the program doesn't catch the exception, the 
+interpreter prints a stack trace. A source level debugger allows inspection of local and global 
+variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a 
+line at a time, and so on. The debugger is written in Python itself, testifying to Python's 
+introspective power. On the other hand, often the quickest way to debug a program is to add a 
+few print statements to the source: the fast edit -test-debug cycle makes this simple approach 
+very effective.  
+ 
+ 
+ 
+ 
+ 
+
+ 
+9 
+ Python’s initial development was spearheaded by Guido van Rossum in the late 1980s. 
+Today, it is developed by the Python Software Foundatio n. Because Python is a multiparadigm 
+language, Python programmers can accomplish their tasks using different styles of 
+programming: object oriented, imperative, functional or reflective. Python can be used in Web 
+development, numeric programming, game deve lopment, serial port access and more.There are 
+two attributes that make development time in Python faster than in other programming 
+languages:  
+1. Python is an interpreted language, which precludes the need to compile code before 
+executing a program because Py thon does the compilation in the background. Because 
+Python is a high -level programming language, it abstracts many sophisticated details 
+from the programming code. Python focuses so much on this abstraction that its code 
+can be understood by most novice p rogrammers.  
+2. Python code tends to be shorter than comparable codes. Although Python offers fast 
+development times, it lags slightly in terms of execution time. Compared to fully 
+compiling languages like C and C++, Python programs execute slower. Of course, with 
+the processing speeds of computers these days, the speed differences are usually only 
+observed in benchmarking tests, not in real -world operations. In most cases, Python is 
+already included in Linux distributions and Mac OS X machines.  
+ 
+  
+
+ 
+10 
+ 4.2 BACK END  
+MySQL  is the world's most used open source relational database management system  
+(RDBMS) as of 2008 that run as a server providin g multi -user access to a number of databases. 
+The MySQL development project has made its source code  available under the terms of the 
+GNU General Public License , as well as under a variety of proprietary  agreements. MySQL 
+was owned and sponso red by a single for-profit  firm, the Swedish  company MySQ L AB , now 
+owned by Oracle Corporation .  
+ MySQL is a popular choice of database for use in web applications, and is a central 
+component of the widely used LAMP open sou rce web application software stack —LAMP is 
+an acronym for " Linux , Apache , MySQL, Perl/PHP/Python ." Free-software -open source 
+projects that require a full -featured database management system often use MySQL.For 
+commercial use, several paid editions are available, and offer additional functionality. 
+Applicati ons which use MySQL databases include: TYPO3 , Joomla , Word Pr ess, phpBB , 
+MyBB , Drupal  and other software built on the LAMP  software stack. MySQL is also used in 
+many high -profile, large -scale World Wide Web  products, including Wikipedia, 
+Google(though not for searches), Imagebook Twitter , Flickr , Nokia.com , and YouTube . 
+Inter images  
+ MySQL is primarily an RDBMS and ships with no GUI tools t o administer MySQL 
+databases or manage data contained within the databases. Users may use the included command 
+line tools, or use MySQL "front -ends", desktop software and web applications that create and 
+manage MySQL databases, build database structures, b ack up data, inspect status, and work 
+with data records. The official set of MySQL front -end tools, MySQL Workbench is actively 
+developed by Oracle, and is freely available for use.  
+ 
+ 
+ 
+ 
+
+ 
+11 
+ Graphical  
+The official MySQL Workbench is a free integrated environmen t developed by MySQL 
+AB, that enables users to graphically administer MySQL databases and visually design 
+database structures. MySQL Workbench replaces the previous package of software, MySQL 
+GUI Tools . Similar to other third -party packages, but still considered the authoritative MySQL 
+frontend, MySQL Workbench lets users manage database design & modeling, SQL 
+development (replacing MySQL Query Browser) and Database administra tion (replacing 
+MySQL Administrator).MySQL Workbench is available in two editions, the regular free and 
+open source Community Edition  which may be downloaded from the MySQL website, and the 
+proprietary Standard Edition  which extends and improves the featur e set of the Community 
+Edition.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+12 
+ 5. SYSTEM DESIGN  
+A system architecture or systems architecture is the conceptual model that defines the 
+structure, behavior, and more views of a system. An architecture description is a formal 
+description and re presentation of a system, organized in a way that supports reasoning about 
+the structures and behaviors of the system. System architecture can comprise system 
+components, the externally visible properties of those components, the relationships (e.g. the 
+behavior) between them. It can provide a plan from which products can be procured, and 
+systems developed, that will work together to implement the overall system. There have been 
+efforts to formalize languages to describe system architecture; collectively th ese are called 
+architecture description languages (ADLs).  
+Various organizations define systems architecture in different ways, including:  
+ An allocated arrangement of physical elements which provides the design solution for 
+a consumer product or life -cycle process intended to satisfy the requirements of the 
+functional architecture and the requirements baseline.  
+ Architecture comprises the most important, pervasive, top -level, strategic inventions, 
+decisions, and their associated rationales about the overall s tructure (i.e., essential 
+elements and their relationships) and associated characteristics and behavior.  
+ If documented, it may include information such as a detailed inventory of current 
+hardware, software and networking capabilities; a description of long -range plans and 
+priorities for future purchases, and a plan for upgrading and/or replacing dated 
+equipment and software  
+ The composite of the design architectures for products and their life -cycle processes.  
+ 
+
+ 
+13 
+ 5.1 FLOW CHART   
+Register  
+Login  
+ View Categories  
+Update daily 
+expensive  
+View pie chart  
+Set limit  
+If cost is high  
+Alert to admin  
+Database  
+User  
+Admin  
+Login  
+Expense Report  
+Fig.5.1.1  
+
+ 
+14 
+  
+5.2 DATAFLOW DIAGRAM  
+Data Fl ow Diagram  
+A two -dimensional diagram explains how data is processed and transferred in a system. 
+The graphical depiction identifies each source of data and how it interacts with other data 
+sources to reach a common output. Individuals seeking to draft a da ta flow diagram must 
+identify external inputs and outputs, determine how the inputs and outputs relate to each other, 
+and explain with graphics how these connections relate and what they result in. This type of 
+diagram helps business development and design  teams visualize how data is processed and 
+identify or improve certain aspects.  
+Data flow Symbols : 
+ 
+Symbol  Description  
+ 
+An entity . A source of data 
+or a destination for data.  
+ 
+A process  or task that is 
+performed by the system.  
+ 
+ A data store , a place  where 
+data is held between 
+processes.  
+ 
+ A data flow . 
+ 
+Fig.5.2.1  
+ 
+
+
+ 
+15 
+  
+LEVEL 0  
+The Level 0 DFD shows how the system is divided into 'sub -systems' (processes), each 
+of which deals with one or more of the data flows to or from an external agent, and which 
+together provide all of the functionality of the system as a whole. It also identifies internal data 
+stores that must be present in order for the system to do its job, and shows the flow of data 
+between the various parts of the system.  
+ 
+                                                         Fig.5.2.2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+User  
+ Register  
+Stored On 
+Database  
+
+ 
+16 
+ LEVEL 1  
+In 1-level DFD, the context diagram is decomposed into multiple bubbles/processes. In 
+this level, we highlight the main functions of the system and breakdown the high -level process 
+of 0-level DFD into sub processes.  
+ 
+                                                              Fig.5.2.3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+User  
+ Login  
+View Categories  
+Upload  Daily 
+Expensive Details  
+Set Limit  
+Stored on 
+Database  
+
+ 
+17 
+ LEVEL 2  
+2-level DFD goes one step deeper into parts of 1 -level DFD. It can be used to plan or 
+record the specific/necessary detail about the system’s  functioning.  
+       
+ 
+                                                              Fig.5.2.4                                                                                                                                       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+User  
+View Expensive 
+Pie chart  
+Set Alert  
+Stored on 
+Database  
+
+ 
+18 
+ 5.3 DATABASE DESIGN  
+A table is a data structure that organizes information into rows and columns. It can be 
+used to both store and display data in a structured format. For example, databases store data in 
+tables so that information can be quickly accessed from specific  rows. Websites often use 
+tables to display multiple rows of data on page. Spreadsheets combine both purposes of a table 
+by storing and displaying data in a structured format.  
+ Databases often contain multiple tables, with each one designed for a specific purpose. 
+For example, a company database may contain separate tables for employees, clients, and 
+suppliers. Each table may include its own set of fields, based on what data the table needs to 
+store. In database tables, each field is considered a column, wh ile each entry (or record), is 
+considered a row. A specific value can be accessed from the table by requesting data from an 
+individual column and row.  
+Table structure for table admin  table  
+Field  Type  Null Default  
+User name varchar(250)  Yes NULL  
+Password  varchar(250)  Yes NULL  
+                                             Table 5.3.1  
+Table structure for table expense  table  
+Field  Type  Null Default  
+id  Big int(20)  Yes NULL  
+User name varchar(250)  Yes NULL  
+Type  varchar(250)  Yes NULL  
+Date  date Yes NULL  
+Amount  decimal(10,2)  Yes NULL  
+Info varchar(250)  Yes NULL  
+Bill varchar(500)  Yes NULL  
+Mon th int(10)  Yes NULL  
+year int(10)  Yes NULL  
+
+ 
+19 
+ Table structure for table limtb  
+Field  Type  Null Default  
+id Big int(10)  Yes NULL  
+User name varchar(250)  Yes NULL  
+Mon th int(10)  Yes NULL  
+Year int(10)  Yes NULL  
+Amount  varchar(20)  Yes NULL  
+                                                          Table 5.3.3  
+Table structure for table reg  table  
+Field  Type  Null Default  
+Name  varchar(250)  Yes NULL  
+Gender  varchar(250)  Yes NULL  
+Age varchar(250)  Yes NULL  
+Email  varchar(250)  Yes NULL  
+Mobile  varchar(250)  Yes NULL  
+Address  varchar(250)  Yes NULL  
+User name varchar(250)  Yes NULL  
+Password  varchar(250)  Yes NULL  
+ 
+                                                            Table 5.3.4  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+20 
+ 6. SYSTEM TESTING  
+Testing is a set activity that can be planned and conducted systematically. Testing 
+begins at the module level and work towards the integration of entire computers based system. 
+Nothing is complete without testing, as it is vital succes s of the system.  
+Testing Objectives:  
+There are several rules that can serve as testing objectives, they are  
+1. Testing is a process of executing a program with the intent of finding an error  
+2. A good test case is one that has high probability of finding an undiscovered error.  
+3. A successful test is one that uncovers an undiscovered error.  
+If testing is conducted successfully according to the objectives as stated above, it would 
+uncover errors in the software. Also testing demonstrates that software functions  appear to the 
+working according to the specification, that performance requirements appear to have been 
+met. 
+There are three ways to test a program  
+1. For Correctness  
+2. For Implementation efficiency  
+3. For Computational Complexity.  
+Tests used for implementation e fficiency attempt to find ways to make a correct 
+program faster or use less storage. It is a code -refining process, which reexamines the 
+implementation phase of algorithm development. Tests for computational complexity amount 
+to an experimental analysis of  the complexity of an algorithm or an experimental comparison 
+of two or more algorithms, which solve the same problem.  
+The data is entered in all forms separately and whenever an error occurred, it is corrected 
+immediately. A quality team deputed by the ma nagement verified all the necessary documents 
+and tested the Software while entering the data at all levels.   
+ 
+  
+
+ 
+21 
+ 6.1 TYPES OF TESTING  
+The development process involves various types of testing. Each test type addresses a 
+specific testing requirement. The m ost common types of testing involved in the development 
+process are:  
+ Unit Test  
+ Functional Test  
+ Integration Test  
+ System Test   
+ Validation Test  
+ 
+Unit Testing:  
+The first test in the development process is the unit test. The source code is normally 
+divided into modules, which in turn are divided into smaller units called units. These units have 
+specific behavior. The test done on these units of code is called unit test. Unit test depends 
+upon the language on which the project is developed. Unit tests ensure that each unique path 
+of the project performs accurately to the documented specifications and contains clearly 
+defined inputs and expected results.  
+Functional Testing:  
+  Functional test can be defined as testing two or more modules together with the inten t 
+of finding defects, demonstrating that defects are not present, verifying that the module 
+performs its intended functions as stated in the specification and establishing confidence that a 
+program does what it is supposed to do.  
+Integration Testing:  
+In integration testing modules are combined and tested as a group. Modules are 
+typically code modules, individual applications, source and destination applications on a 
+network, etc. Integration Testing follows unit testing and precedes system testing. Testing  after 
+the product is code complete. Betas are often widely distributed or even distributed to the public 
+at large in hopes that they will buy the final product when it is released.  
+ 
+ 
+ 
+
+ 
+22 
+ System Testing : 
+System testing is defined as testing of a complete and fully integrated software product. 
+This testing falls in black -box testing wherein knowledge of the inner design of the code is not 
+a pre -requisite and is done by the testing team.  It is the final test to verify that the product to be 
+delivered meets the s pecifications mentioned in the requirement document. It should 
+investigate both functional and non -functional requirements.   
+Validation Testing : 
+The process of evaluating software during the development process or at the end of the 
+development process to d etermine whether it satisfies specified business requirements. 
+Validation Testing ensures that the product actually meets the client's needs. It can also be 
+defined as to demonstrate that the product fulfills its intended use when deployed on 
+appropriate e nvironment.  
+  
+
+ 
+23 
+ 7. SYSTEM  IMPLEMENTATION  
+7.1 NAME OF THE MODULES  
+ Register  
+ Login  
+ Categories  
+ Update daily expensive  
+ View expensive chart  
+ Set Alert  
+ Notification  
+7.2 MODULES DESCRIPTION  
+REGISTER  
+ Registration is the process of the user to complete the applicatio n's form. Certain details 
+must be submitted such as e -mail address, password, and password confirmation. The user is 
+identified using these details.  
+LOGIN  
+ The login screen is used to verify the identity of the user.  The account can be accessed 
+using the user's registered email address and password.  
+CATEGORIES  
+ On the main page, we can see overall revenue and spending, as well as the balance 
+remaining after expenditure, as well as the user's entire categories namely Entertainment, 
+Cloth, Food and Drinks, H ealth and Fitness and so on.  
+UPDATE DAILY EXPENSIVE  
+ The user can upload the daily expensive details what they are spending on each day. 
+The details such as cloth, entertainment, food, health etc.,  
+
+ 
+24 
+ VIEW EXPENSIVE CHART  
+ This module used to see a pictorial  depiction of all details in the form of a pie chart, 
+where each slice of the pie chart represents that the viewer to gain an approximate notion of 
+which category has the highest expenses.  
+SET ALERT  
+ When a user attempts to spend more than the pre -defined amount limit, the app will 
+automatically send an alert if the threshold amount they selected for an alert is exceeded.  
+NOTIFICATION  
+ A feature of the application called push notifications lets the administrator or developer 
+send a personalized tip of money  management to all of the app's users.  
+  
+
+ 
+25 
+ 8. APPENDICES  
+8.1 SCREENSHOTS  
+SAMPLE SCREENSHOTS  
+ 
+ 
+                                                                    Fig.8.1.1  
+Admin Login  
+ 
+                                                                       Fig.8.1.2  
+
+
+ 
+26 
+ User Information  
+ 
+                                                                     Fig.8.1.3  
+Expenses Report  
+ 
+                                                                    Fig.8.1.4  
+ 
+ 
+ 
+
+
+ 
+27 
+ New User Registration  
+ 
+                                                                           Fig.8.1.5  
+ 
+User Login Here  
+ 
+ 
+                                                                      Fig.8.1.6  
+ 
+
+
+ 
+28 
+ Personal Info  
+                                                                      Fig.8.1.7  
+ 
+Set Expense Limit  
+ 
+ 
+                                                                     Fig.8.1.8  
+ 
+ 
+
+
+ 
+29 
+ Expenses Management  
+ 
+                                                                      Fig.8.1.9  
+Expens Info  
+ 
+                                                              Fig.8.1.10  
+ 
+
+
+ 
+30 
+  
+                                                                   Fig.8.1.11  
+Month Report  
+ 
+                                                                  Fig.8.1.12  
+
+
+ 
+31 
+  
+                                                                        Fig.8.1.13   
+
+
+ 
+32 
+ 8.2 SOURCE CODE  
+ 
+from flask import Flask, render_template, flash, request, session, send_file  
+from flask import render_template, redirect, url_for, request  
+# fromwtforms import Form, TextField, TextAreaField, validat ors, StringField, SubmitField  
+fromwerkzeug.utilsimportsecure_filename  
+importdatetime  
+importmysql.connector  
+import sys  
+app = Flask(__name__)  
+app.config['DEBUG']  
+app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'  
+@app.route("/")  
+defhomepage():  
+retur nrender_template('index.html')  
+@app.route("/AdminLogin")  
+defAdminLogin():  
+returnrender_template('AdminLogin.html')  
+@app.route("/UserLogin")  
+defUserLogin():  
+returnrender_template('UserLogin.html')  
+@app.route("/NewUser")  
+defNewUser():  
+returnrender_template(' NewUser.html')  
+@app.route("/Search")  
+defSearch():  
+returnrender_template('Search.html')  
+
+ 
+33 
+ @app.route("/AdminHome")  
+defAdminHome():  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cur = conn.cursor()  
+cur.exe cute("SELECT * FROM regtb ")  
+data = cur.fetchall()  
+returnrender_template('AdminHome.html', data=data)  
+@app.route("/SetLimit")  
+defSetLimit():  
+user = session['uname']  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expen sespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM limtb where  username ='" + user + "' ")  
+data = cur.fetchall()  
+returnrender_template('Limit.html', data=data)  
+@app.route("/MonthReport")  
+defMonthReport():  
+returnrender_templa te('MonthReport.html')  
+@app.route("/Report")  
+defReport():  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM expensetb ")  
+data = cur.fetchall()  
+
+ 
+34 
+ returnrender_te mplate('Report.html', data=data)  
+@app.route("/UserHome")  
+defUserHome():  
+user = session['uname']  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("S ELECT * FROM regtb where username='" + user + "'")  
+data = cur.fetchall()  
+returnrender_template('UserHome.html', data=data)  
+@app.route("/adminlogin", methods=['GET', 'POST'])  
+defadminlogin():  
+error = None  
+ifrequest.method == 'POST':  
+ifrequest.form['uname'] == 'admin' or request.form['password'] == 'admin':  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM regtb ")  
+data = cur.fetchall()  
+returnrender_template('AdminHome.html', data=data)  
+else: 
+returnrender_template('index.html', error=error)  
+@app.route("/userlogin", methods=['GET', 'POST'])  
+defuserlogin():  
+ifrequest.method == 'POST':  
+
+ 
+35 
+ username = request.form['uname']  
+password = request.form[ 'password']  
+session['uname'] = request.form['uname']  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute("SELECT * from regtb where username='" + username + "' and Passw ord='" 
++ password + "'")  
+data = cursor.fetchone()  
+if data is None:  
+alert = 'Username or Password is wrong'  
+returnrender_template('goback.html', data=alert)  
+else: 
+print(data[0])  
+session['uid'] = data[0]  
+session ['mobile']=data[4]  
+conn = mysql.connector.conn ect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM regtb where username='" + username + "' and Password='" + 
+password + "'")  
+data = cur.fetchall()  
+returnrender_t emplate('UserHome.html', data=data)  
+@app.route("/UReport")  
+defUReport():  
+name1 = session['uname']  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+
+ 
+36 
+  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM expensetb  where username='" + name1 + "' ")  
+data = cur.fetchall()  
+returnrender_template('UReport.html', data=data)  
+@app.route("/dsearch", methods=['GET', 'POST'])  
+defdsearch():  
+ifrequest.method == 'POST':  
+import cv2  
+importdatetime  
+name1 = session['uname']  
+type = re quest.form['c1']  
+dat = request.form['t1']  
+amt = request.form['t2']  
+info = request.form['t3']  
+file = request.files['fileupload']  
+file.save('static/upload/'+file.filename)  
+date_object = datetime.datetime.strptime(dat, '%Y -%m-%d').date()  
+mon = date_object.str ftime("%m")  
+yea = date_object.strftime("%Y")  
+print(mon)  
+print(yea)  
+global lim1  
+global lim2  
+lim1 = 0  
+lim2 = 0  
+
+ 
+37 
+ conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute(  
+"SELECT  * from limtb where mon='" + mon + "' and yea='" + yea + "' and Username='" + 
+name1 + "'")  
+data = cursor.fetchone()  
+if data is None:  
+alert = 'Please Set Expense Limit'  
+returnrender_template('goback.html', data=alert)  
+else: 
+lim1 = data[4]  
+conn = mysql.conne ctor.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute(  
+"SELECT sum(Amount) as amt  from expensetb where mon='" + mon + "' and yea='" + yea + 
+"' and Username='" + name1 + "' ")  
+data = cursor .fetchone()  
+if data is None:  
+lim2 = float(0.00)  
+# alert = 'Please Set Expense Limit'  
+# returnrender_template('goback.html', data=alert)  
+else: 
+lim2 = data[0]  
+print(lim1)  
+if lim2 is None:  # Checking if the variable is None  
+ 
+
+ 
+38 
+ lim2 = 0.00  
+else: 
+print("Not None ") 
+lim2 = float(lim2) + float(amt)  
+if float(lim2) <= float(lim1):  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute(  
+"INSERT INTO expensetb VALUES ('','" + name1 + "', '" + type + "','" + dat + "','" + amt + 
+"','" + info + "','" + file.filename + "','" +  
+date_object.strftime("%m") + "','" + date_object.strftime("%Y") + "')")  
+conn.commit()  
+conn.close()  
+alert = 'New Expense Info Saved'  
+flash('New Expense Info Saved')  
+retur nrender_template('Search.html', result=amt)  
+else: 
+alert = 'Limit Above  Expense'  
+msg = "Limit Amt:" + str(lim1) + " Above" + str(lim2)  
+sendmsg(session['mobile'], msg);  
+flash('Limit Above  Expense' + session['mobile'])  
+returnrender_template('Search.html', r esult=amt)  
+defsendmsg(targetno,message):  
+import requests  
+requests.post("http://smsserver9.creativepoint.in/api.php?username=fantasy&password=5966
+92&to=" + targetno + "&from=FSSMSS&message=Dear user  your msg is " + message + " 
+Sent By FSMSG 
+FSSMSS&PEID=150 1563800000030506&templateid=1507162882948811640")  
+
+ 
+39 
+ @app.route("/setlimit", methods=['GET', 'POST'])  
+defsetlimit():  
+ifrequest.method == 'POST':  
+name1 = session['uname']  
+mon = request.form['mon']  
+yea = request.form['yea']  
+amt = request.form['t2']  
+conn = mysql .connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute("SELECT * from limtb where username='" + name1 + "' and mon='" + mon + 
+"' and yea='" + yea + "'")  
+data = cursor.fetchone()  
+if dat a is None:  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute(  
+"INSERT INTO limtb VALUES ('','" + name1 + "','" + mon + "','" + yea + "','" + amt + "')")  
+conn.commit()  
+conn.close()  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM limtb where  username ='" + name1 + "' ")  
+data = cur.fetchall()  
+return render_template('Limit.html', data=data)  
+
+ 
+40 
+ else: 
+alert = 'Already Set  Expense limit Remove And Set New!'  
+returnrender_template('goback.html', data=alert)  
+@app.route("/remove")  
+defremove():  
+name1 = session['uname']  
+did = request.args.get('did')  
+conn = mysql. connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute("delete from limtb  where Id='" + did + "' ")  
+conn.commit()  
+conn.close()  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+# cursor = conn.cursor()  
+cur = conn.cursor()  
+cur.execute("SELECT * FROM limtb where  username ='" + name1 + "' ")  
+data = cur.fetchall()  
+returnrender_template('Limit.html', data=data)  
+@app.route("/newuser", method s=['GET', 'POST'])  
+defnewuser():  
+ifrequest.method == 'POST':  
+name1 = request.form['name']  
+gender1 = request.form['gender']  
+Age = request.form['age']  
+email = request.form['email']  
+pnumber = request.form['phone']  
+
+ 
+41 
+ address = request.form['address']  
+uname = req uest.form['uname']  
+password = request.form['psw']  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cursor = conn.cursor()  
+cursor.execute(  
+"INSERT INTO regtb VALUES ('" + name1 + "','" + gender1 + "','" + Age + "','" + email + 
+"','" + pnumber + "','" + address + "','" + uname + "','" + password + "')")  
+conn.commit()  
+conn.close()  
+# return 'file register successfully'  
+returnrender_template('UserLogin.html')  
+@app.route("/msearch", methods=['GET', 'POST'])  
+defm search():  
+ifrequest.method == 'POST':  
+ifrequest.form["submit"] == "Search":  
+mon = request.form['mon']  
+yea = request.form['yea']  
+uname = session['uname']  
+importmatplotlib.pyplotasplt  
+importmatplotlib  
+matplotlib.use('Agg')  
+conn = mysql.connector.connect(user ='root', password='', host='localhost', 
+database='2Expensespydb')  
+mycursor = conn.cursor()  
+mycursor.execute(  
+
+ 
+42 
+ "select Type, sum(Amount) as MSales from expensetb where mon='" + mon + "' and yea='" + 
+yea + "' and Username='" + uname + "' group by Type ")  
+result = mycursor.fetchall  
+Month = []  
+MSales = []  
+Month.clear()  
+MSales.clear()  
+foriinmycursor:  
+Month.append(i[0])  
+MSales.append(i[1])  
+print("Month = ", Month)  
+print("Total Sales = ", MSales)  
+# Visulizing Data using Matplotlib  
+plt.bar(Month, MSales, color=['yel low', 'red', 'green', 'blue', 'cyan'])  
+# plt.ylim(0, 5)  
+plt.xlabel("Type")  
+plt.ylabel("Total Expenses")  
+plt.title("Monthly Expenses")  
+import random  
+n = random.randint(1111, 9999)  
+plt.savefig('static/plott/' + str(n) + '.jpg')  
+iimg = 'static/plott/' + str(n ) + '.jpg'  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cur = conn.cursor()  
+cur.execute(  
+"SELECT * FROM expensetb where mon='" + mon + "' and yea='" + yea + "' and 
+Username='" + uname + "' ")  
+
+ 
+43 
+ data = c ur.fetchall()  
+returnrender_template('MonthReport.html', data=data, dataimg=iimg)  
+elifrequest.form["submit"] == "DSearch":  
+d1 = request.form['d1']  
+d2 = request.form['d2']  
+uname = session['uname']  
+importmatplotlib.pyplotasplt  
+importmatplotlib  
+matplotlib.use( 'Agg')  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+mycursor = conn.cursor()  
+mycursor.execute(  
+"select Type, sum(Amount) as MSales,date from expensetb where date between '" + d1 + "' 
+and '" + d2 + "' and Username='" + uname + "' group by Type ")  
+result = mycursor.fetchall  
+Month = []  
+MSales = []  
+Month.clear()  
+MSales.clear()  
+foriinmycursor:  
+Month.append(i[0])  
+MSales.append(i[1])  
+print("Month = ", Month)  
+print("Total Sales = ", MSales  
+# Visulizing Data us ing Matplotlib  
+plt.bar(Month, MSales, color=['yellow', 'red', 'green', 'blue', 'cyan'])  
+# plt.ylim(0, 5)  
+
+ 
+44 
+ plt.xlabel("Type")  
+plt.ylabel("Total Expenses")  
+plt.title("Date To Date  Expenses")  
+import random  
+n = random.randint(1111, 9999)  
+plt.savefig('static/pl ott/' + str(n) + '.jpg')  
+iimg = 'static/plott/' + str(n) + '.jpg'  
+conn = mysql.connector.connect(user='root', password='', host='localhost', 
+database='2Expensespydb')  
+cur = conn.cursor()  
+cur.execute(  
+"SELECT * FROM expensetb where date between '" + d1 + "'  and '" + d2 + "' and 
+Username='" + uname + "' ")  
+data = cur.fetchall()  
+returnrender_template('MonthReport.html', data=data, dataimg=iimg)  
+returnrender_template('goback.html')  
+if __name__ == '__main__':  
+app.run(debug=True, use_reloader=True)   
+
+ 
+45 
+ 9. CONCLUSION  
+The majority of the shortcomings of the old system have been mostly resolved by the 
+new one, which operates in accordance with the provided design specification. Design the 
+project that is more effective than existing income and expense trackers. The manu al 
+calculation for determining the income and expense every month is successfully avoided by 
+the project. The modules are created in a way that is both effective and appealing. The created 
+methods eliminate the issue and satisfy the needs by giving accurat e and thorough information. 
+The system has complied with every criterion that the user envisaged. The newly created 
+system takes less time to process, and all the information is updated and processed right away.  
+FUTURE ENHANCEMENT  
+Looking ahead, the future  enhancement of the expenditure tracker program involves 
+integrating advanced features and capabilities to further improve user experience and financial 
+management. One potential enhancement is the incorporation of artificial intelligence and 
+machine learn ing algorithms to analyze users' spending patterns and provide personalized 
+financial advice and recommendations. Additionally, the program could include support for 
+multiple currencies and automatic currency conversion for users who travel frequently or 
+conduct international transactions. Integration with banking and payment systems would 
+enable automatic expense tracking and real -time updates, reducing the need for manual data 
+entry. The implementation of voice commands and natural language processing cou ld offer a 
+hands -free, intuitive way for users to interact with the application. Finally, expanding the 
+notification system to include reminders for upcoming bills and due dates, as well as offering 
+tips for achieving savings goals, would provide users wit h comprehensive financial 
+management support. These enhancements aim to create a more intelligent, user -friendly, and 
+efficient expenditure tracker that adapts to the evolving needs of its users . 
+  
+
+ 
+46 
+ 10. REFERECES  
+BOOK REFERENCES  
+ Van Rossum, Guido, and Fred L. Drake.  The python language reference manual . 
+Network Theory Ltd., 2011.  
+ Van Rossum, Guido, and Fred L. Drake.  The python language reference manual . 
+Network Theory Ltd., 2011.  
+ Dierbach, Charles.  Introduction to Computer Science using Python: A Computatio nal 
+Problem -Solving Focus . Wiley Publishing, 2012.  
+ James, Mike.  Programmer's Python: Everything is an Object Something Completely 
+Different . I/O Press, 2018.  
+ Reges, Stuart, Marty Stepp, and Allison Obourn.  Building Python Programs . Pearson, 
+2018.  
+WEBSITE R EFERENCES  
+ https://docs.python.org/3/tutorial/  
+ https://www.w3schools.com/python/  
+ https://www.tutorialspoint.com/python/index.htm  
+ https://www.programiz.com/python -programming  
+ https://www.learnpython.org/python  
+ 
+
