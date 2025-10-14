@@ -60,7 +60,17 @@ def create_app() -> Flask:
 
 	@app.route("/Search")
 	def search():
-		return render_template("Search.html")
+		rows = []
+		username = session.get("uname")
+		if username:
+			with get_mysql_connection() as conn:
+				cur = conn.cursor()
+				cur.execute(
+					"SELECT Type, date, Amount, Info FROM expensetb WHERE Username=%s ORDER BY date DESC, id DESC LIMIT 50",
+					(username,),
+				)
+				rows = cur.fetchall()
+		return render_template("Search.html", data=rows)
 
 	@app.route("/AdminHome")
 	def admin_home():
@@ -267,7 +277,15 @@ def create_app() -> Flask:
 				flash(f"Warning: limit exceeded. Limit {limit_amt}, spent {will_be}")
 			else:
 				flash("New Expense Info Saved")
-		return render_template("Search.html")
+		# fetch updated list to display below the form
+		with get_mysql_connection() as conn:
+			cur = conn.cursor()
+			cur.execute(
+				"SELECT Type, date, Amount, Info FROM expensetb WHERE Username=%s ORDER BY date DESC, id DESC LIMIT 50",
+				(username,),
+			)
+			rows = cur.fetchall()
+		return render_template("Search.html", data=rows)
 
 	@app.route("/db-init")
 	def db_init():

@@ -19,6 +19,17 @@
 		<button type="submit">Save Expense</button>
 	</form>
 </div>
+
+<div class="card" style="margin-top:16px">
+	<h2>Recent Expenses</h2>
+	<ul>
+		{% for r in data %}
+		<li>{{ r[1] }} — {{ r[0] }} : {{ r[2] }} ({{ r[3] }})</li>
+		{% else %}
+		<li>No expenses yet</li>
+		{% endfor %}
+	</ul>
+</div>
 {% endblock %}
 
 
