@@ -298,10 +298,4 @@ def create_app() -> Flask:
 			return {"ok": False, "error": str(e)}, 500
 
 	return app
-
-
-if __name__ == "__main__":
-	app = create_app()
-	app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
-
-
+app = create_app()
