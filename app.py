@@ -1,11 +1,11 @@
+
+import base64
+from io import BytesIO
 from flask import Flask, render_template, request, session, flash, redirect, url_for
 import os
 from dotenv import load_dotenv
 from db import get_mysql_connection, init_schema
 import datetime
-import random
-import pathlib
-
 
 def create_app() -> Flask:
 	app = Flask(__name__)
@@ -122,7 +122,7 @@ def create_app() -> Flask:
 	@app.route("/MonthReport", methods=["GET", "POST"])
 	def month_report():
 		username = session.get("uname")
-		chart_path = None
+		chart_output = None
 		rows = []
 		if request.method == "POST" and username:
 			import matplotlib
@@ -145,17 +145,15 @@ def create_app() -> Flask:
 			labels = [a[0] for a in aggs]
 			values = [float(a[1] or 0) for a in aggs]
 			if labels:
-				pathlib.Path("static/plott").mkdir(parents=True, exist_ok=True)
-				plt.figure(figsize=(6, 4))
-				plt.bar(labels, values, color=["#fbbf24", "#ef4444", "#10b981", "#3b82f6", "#a855f7"])  # yellow, red, green, blue, purple
-				plt.xlabel("Type")
-				plt.ylabel("Total Expenses")
-				plt.title("Monthly Expenses")
-				img_name = f"static/plott/{random.randint(1111,9999)}.png"
-				plt.tight_layout()
-				plt.savefig(img_name)
-				chart_path = img_name
-		return render_template("MonthReport.html", data=rows, dataimg=chart_path)
+				fig, ax = plt.subplots(figsize=(6, 4))
+				ax.bar(labels, values, color=["#fbbf24", "#ef4444", "#10b981", "#3b82f6", "#a855f7"])  # yellow, red, green, blue, purple
+				ax.set(xlabel="Type", ylabel="Total Expenses", title="Monthly Expenses")
+				fig.tight_layout()
+				# Save to a bytes buffer
+				buf = BytesIO()
+				fig.savefig(buf, format="png")
+				chart_output = base64.b64encode(buf.getbuffer()).decode("ascii")
+		return render_template("MonthReport.html", data=rows, dataimg=chart_output)
 
 	@app.route("/Categories")
 	def categories():

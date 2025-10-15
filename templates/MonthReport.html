@@ -13,7 +13,7 @@
 		<button type="submit">Generate</button>
 	</form>
 	{% if dataimg %}
-		<p><img src="/{{ dataimg }}" alt="chart" style="max-width:100%;height:auto" /></p>
+		<p><img src="data:image/png;base64,{{ dataimg }}" alt="chart" style="max-width:100%;height:auto" /></p>
 	{% endif %}
 	<h2>Entries</h2>
 	<ul>
